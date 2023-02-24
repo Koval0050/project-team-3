@@ -1,0 +1,42 @@
+/*-------------------- BASE ---------------*/
+@import url('./base/varibles.css');
+@import url('./base/reset.css');
+@import url('./base/common.css');
+/*-------------------- /BASE ---------------*/
+
+/*-------------------- LAYOYT ---------------*/
+@import url('./layoyt/header.css');
+@import url('./layoyt/footer.css');
+/*-------------------- /LAYOYT ---------------*/
+
+
+
+/*============================== PAGES =====================*/
+
+/*-------------------- INDEX ---------------*/
+@import url('./pages/index/hero.css');
+@import url('./pages/index/section-1.css');
+@import url('./pages/index/section-2.css');
+/*-------------------- /INDEX ---------------*/
+
+/*-------------------- HOTEL ---------------*/
+@import url('./pages/hotel/hero-hotel.css');
+@import url('./pages/hotel/section-1.css');
+@import url('./pages/hotel/section-2.css');
+@import url('./pages/hotel/section-3.css');
+/*-------------------- /HOTEL ---------------*/
+
+/*-------------------- RESTAURANT ---------------*/
+@import url('./pages/restaurant/hero-restaurant.css');
+@import url('./pages/restaurant/section-1.css');
+@import url('./pages/restaurant/section-2.css');
+/*-------------------- /RESTAURANT ---------------*/
+
+
+/*-------------------- ROOM ---------------*/
+@import url('./pages/room/hero-room.css');
+@import url('./pages/room/section-1.css');
+/*-------------------- /ROOM ---------------*/
+
+
+/*============================== /PAGES =====================*/
