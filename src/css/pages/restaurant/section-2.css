@@ -94,6 +94,25 @@
     margin-bottom: 8px;
 }
 
+.current {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.current::before {
+    position: relative;
+    display: block;
+    content: '';
+    max-width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 @media screen and (min-width: 768px) {
     .rest-menu-dish-name {
         font-size: 18px;
