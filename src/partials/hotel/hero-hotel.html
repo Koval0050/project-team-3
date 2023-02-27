@@ -1,6 +1,95 @@
-<section class="hero-hotel container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <section class="hero-hotel container">
   HERO HOTEL<br />
   <a href="./index.html">travel to index</a><br />
   <a href="./restaurant.html">travel to restairant</a><br />
   <a href="./room.html">travel to room</a>
 </section>
+<section class="hero-hotel">
+  <div class="container hero-container">
+      <div class="hero-desk-group">
+          <h1 class="hero-title">Hotel</h1>
+      <ul class="hero-list-btn list">
+          <li class="hero-button">
+              <button class="hero-btn" type="button">book a room</button>
+          </li>
+          <li class="hero-button">
+              <button class="hero-btn" type="button">View prices</button>
+          </li>
+      </ul>
+  </div>
+      <ul class="hero-list-img list">
+          <li class="hero-img">
+              <picture>
+                  <source
+                  srcset="/src/img/hotel/hero-hotel/desk-hotel-1_1x.jpg 1x,
+                  /src/img/hotel/hero-hotel/desk-hotel-1_2x.jpg 2x"
+                  media="(min-width: 1440px)"
+                  />
+                  <source
+                  srcset="/src/img/hotel/hero-hotel/tablet-hotel-1_1x.jpg 1x,
+                  /src/img/hotel/hero-hotel/tablet-hotel-1_2x.jpg 2x"
+                  media="(min-width: 768px)" 
+                  />
+                  <source
+                  srcset="/src/img/hotel/hero-hotel/mob-hotel-1_1x.jpg 1x,
+                  /src/img/hotel/hero-hotel/mob-hotel-1_1x.jpg 2x"
+                  media="(max-width: 767px)" 
+                  />
+              </picture>
+              <img 
+              src="/src/img/hotel/hero-hotel/mob-hotel-1_1x.jpg" 
+              alt="height modern build" 
+              width="436">
+          </li>
+          <li class="hero-img">
+              <picture>
+                  <source
+                  srcset="./images/desktop/desk-hotel-2_1x.jpg 1x,
+                  ./images/desktop/desk-hotel-2_2x.jpg 2x"
+                  media="(min-width: 1440px)"
+                  />
+                  <source
+                  srcset="./images/tablet/tablet-hotel-2_1x.jpg 1x,
+                  ./images/tablet/tablet-hotel-2_2x.jpg 2x"
+                  media="(min-width: 768px)" 
+                  />
+                  <source
+                  srcset="./images/mobile/mob-hotel-2_1x.jpg 1x,
+                  ./images/mobile/mob-hotel-2_2x.jpg 2x"
+                  media="(max-width: 767px)" 
+                  />
+              </picture>
+              <img
+              src="./images/mobile/mob-hotel-2_1x.jpg" 
+              alt="modern build" 
+              width="436">
+          </li>
+      </ul>
+      <div class="hero-group">
+      <ul class="hero-svg list">
+          <li class="hero-svg-icon">
+      <svg class="mob-hero-svg-icon icon-first" width="36px" height="36px">
+          <use href="./images/icons.svg#icon-slider-1"></use>
+      </svg>
+      </li>
+      <li class="hero-svg-icon">
+          <svg class="mob-hero-svg-icon" width="36px" height="36px">
+              <use href="./images/icons.svg#icon-slider"></use>
+          </svg>
+          </li>
+      </ul>
+      <p class="hero-text boxes">Whether you're in the mood for a hearty breakfast, a light lunch, or a <em>romantic dinner</em>, our menu has something for everyone.</p>
+  </div>
+  </div>
+  </section>
+</body>
+</html> 

@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 <section class="hero-room container">
     HERO Room<br />
     <a href="./index.html">travel to index</a><br />
@@ -5,3 +15,76 @@
     <a href="./restaurant.html">travel to restaurant</a>
 
 </section>    
+
+
+    <section class="hero-room">
+        <div class="container hero-container">
+            <div class="hero-desk-group">
+                <h1 class="hero-title room">Double <em>luxury</em> room</h1>                
+                <button class="hero-btn" type="button">view prices</button>
+            </div>
+                <ul class="hero-list-img list">
+                <li class="hero-img">
+                    <picture>
+                        <source
+                        srcset="./images/desktop/desk-room-1_1x.jpg 1x,
+                        ./images/desktop/desk-room-1_2x.jpg 2x"
+                        media="(min-width: 1440px)"
+                        />
+                        <source
+                        srcset="./images/tablet/tablet-room-1_1x.jpg 1x,
+                        ./images/tablet/tablet-room-1_2x.jpg 2x"
+                        media="(min-width: 768px)" 
+                        />
+                        <source
+                        srcset="./images/mobile/mob-room-1_1x.jpg 1x,
+                        ./images/mobile/mob-room-1_2x.jpg 2x"
+                        media="(max-width: 767px)" 
+                        />
+                    </picture>
+                    <img 
+                    src="./images/mobile/mob-room-1_1x.jpg" 
+                    alt="hotel room" width="436">
+                </li>
+                <li class="hero-img">
+                    <picture>
+                        <source
+                        srcset="./images/desktop/desk-room-2_1x.jpg 1x,
+                        ./images/desktop/desk-room-2_2x.jpg 2x"
+                        media="(min-width: 1440px)"
+                        />
+                        <source
+                        srcset="./images/tablet/tablet-room-2_1x.jpg 1x,
+                        ./images/tablet/tablet-room-2_2x.jpg 2x"
+                        media="(min-width: 768px)" 
+                        />
+                        <source
+                        srcset="./images/mobile/mob-room-2_1x.jpg 1x,
+                        ./images/mobile/mob-room-2_2x.jpg 2x"
+                        media="(max-width: 767px)" 
+                        />
+                    </picture>
+                    <img
+                    src="./images/mobile/mob-room-2_1x.jpg" 
+                    alt="chicken" width="436">
+                </li>
+            </ul>
+            <div class="hero-group">
+            <ul class="hero-svg list">
+                <li class="hero-svg-icon">
+            <svg class="mob-hero-svg-icon icon-first" width="36px" height="36px">
+                <use href="./images/icons.svg#icon-slider-1"></use>
+            </svg>
+            </li>
+            <li class="hero-svg-icon">
+                <svg class="mob-hero-svg-icon" width="36px" height="36px">
+                    <use href="./images/icons.svg#icon-slider"></use>
+                </svg>
+                </li>
+            </ul>
+            <p class="hero-text box">The Mimino hotel features spacious and stylish double luxury rooms with modern amenities for a comfortable stay.</p>
+        </div>
+    </div>
+    </section> 
+</body>
+</html>
