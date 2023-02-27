@@ -163,6 +163,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        margin-bottom: 56px;
     }
 }
 
@@ -301,8 +303,6 @@
 
 @media screen and (min-width: 1440px) {
     .rest-menu-btn {
-        margin-top: 56px;
-
         font-size: 18px;
         line-height: 1.33;
 
