@@ -90,7 +90,7 @@ color: #121212;
 margin-top: 40px;
 }
 .boxes {
-    width: 338px;
+    width: 100%;
 }
 .box {
     width: 289px;
@@ -192,6 +192,9 @@ transform: translate(-50%, -50%);
         margin-left: auto;
         margin-right: auto;
         } 
+        .boxes {
+            width: 338px;
+        }
     }
     
     @media screen and (min-width: 768px) {
@@ -304,4 +307,21 @@ transform: translate(-50%, -50%);
     font-size: 18px;
     line-height: 1.33;
     } 
-}
+    .hero-home-group-desk {
+        display: flex;
+    }
+    .hero-home-title {
+        transform: none;
+        position: relative;
+        left: 0;
+        margin-right: 230px;
+        margin-top: 196px;
+        margin-bottom: 196px;
+
+        font-size: 180px;
+        line-height: 180px;
+        }
+        .hero-home-sent {
+            margin-top: 0;
+        }
+    }
