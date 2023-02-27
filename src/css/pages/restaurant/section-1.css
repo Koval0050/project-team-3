@@ -1,0 +1,97 @@
+.about-kitchen {}
+
+.kitchen-container {
+    width: 375px;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.kitchen-list {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.two-pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-list {
+    margin-bottom: 64px;
+}
+
+.kitchen-item-experts,
+.kitchen-item-cooking {
+    max-width: 335px;
+    margin-bottom: 24px;
+}
+
+.kitchen-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .kitchen-container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .kitchen-list {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 32px;
+    }
+
+    .two-pictures {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .text-list {
+        display: flex;
+        column-gap: 32px;
+        margin-bottom: 80px;
+    }
+
+    .kitchen-item-experts {
+        width: 349px;
+    }
+
+    .kitchen-item-cooking{
+        width: 323px;
+    }
+
+    .kitchen-text {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+}
