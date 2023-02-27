@@ -79,6 +79,9 @@
     padding-left: 32px;
   }
 
+  .text-disc-down{width: 299px;}
+
+
   .hotel-room-img-list {
     display: inline;
     display: grid;
