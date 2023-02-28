@@ -17,27 +17,29 @@
 
 /*-------------------- INDEX ---------------*/
 @import url('./pages/index/hero.css');
-@import url('./pages/index/section-1.css');
-@import url('./pages/index/section-2.css');
+@import url('./pages/index/about-a-complex.css');
+@import url('./pages/index/restaurant’s-details.css');
+@import url('./pages/index/welcome-to-a-complex.css');
+@import url('./pages/index/hotel’s-details.css');
+@import url('./pages/index/location-&-contacts.css');
 /*-------------------- /INDEX ---------------*/
-
-/*-------------------- HOTEL ---------------*/
-@import url('./pages/hotel/hero-hotel.css');
-@import url('./pages/hotel/section-1.css');
-@import url('./pages/hotel/section-2.css');
-@import url('./pages/hotel/section-3.css');
-/*-------------------- /HOTEL ---------------*/
 
 /*-------------------- RESTAURANT ---------------*/
 @import url('./pages/restaurant/hero-restaurant.css');
-@import url('./pages/restaurant/section-1.css');
-@import url('./pages/restaurant/section-2.css');
+@import url('./pages/restaurant/about-a-kitchen.css');
+@import url('./pages/restaurant/restaurant-menu.css');
 /*-------------------- /RESTAURANT ---------------*/
 
+/*-------------------- HOTEL ---------------*/
+@import url('./pages/hotel/hero-hotel.css');
+@import url('./pages/hotel/double-luxury-room.css');
+@import url('./pages/hotel/triple-room.css');
+@import url('./pages/hotel/four-seater-room.css');
+/*-------------------- /HOTEL ---------------*/
 
 /*-------------------- ROOM ---------------*/
 @import url('./pages/room/hero-room.css');
-@import url('./pages/room/section-1.css');
+@import url('./pages/room/amenities.css');
 /*-------------------- /ROOM ---------------*/
 
 
