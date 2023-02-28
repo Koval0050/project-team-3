@@ -1,4 +1,13 @@
-.hero-room{
-    background-color:blanchedalmond;
-    color: darkslategrey;
+
+@media screen and (min-width: 768px) {
+.room {
+    margin-bottom: 18px;
+}
+.img-room {
+    margin-top: 28px;
+}
+
+
+
+
 }

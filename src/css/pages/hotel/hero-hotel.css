@@ -199,6 +199,9 @@ margin-bottom: 32px;
         .hero-home-text {
             font-size: 14px;
         }
+        .hero-home-wrap-title {
+        display: none;
+        }
     }
     
     @media screen and (min-width: 768px) {
@@ -215,6 +218,9 @@ margin-bottom: 32px;
                 letter-spacing: -0.02em;
                 margin-bottom: 32px;
             }
+            .hero-home-wrap-title {
+                display: none;
+                }
             .hero-title {
                 font-family: 'DM Sans';
                 font-style: normal;
@@ -229,6 +235,7 @@ margin-bottom: 32px;
                 margin-bottom: 32px;
                 margin-top: 0;
                 }
+                
                 .hero-button:not(:last-child) {
                     margin-right: 14px;
                 }
@@ -295,7 +302,7 @@ margin-bottom: 32px;
     flex-wrap: wrap;
     }
     .hero-home-container {
-    margin-bottom: 78px;
+    margin-bottom: 0;
     }
     .hero-title {
     margin-top: 204px;
@@ -319,6 +326,7 @@ margin-bottom: 32px;
         display: none;
         }
         .hero-home-wrap-title {
+        display: inline-block;
         font-weight: 400;
         font-size: 180px;
         line-height: 1;
@@ -327,8 +335,11 @@ margin-bottom: 32px;
         text-transform: uppercase;
             
         color: #F7F7F7;
-        margin-top: 196px;
+        margin-top: 274px;
         margin-bottom: 196px;
+        }
+        .hero-home-wraper {
+            margin-bottom: 78px;
         }
         .hero-home-sent {
             margin-top: 0;
