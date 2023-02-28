@@ -1,3 +1,9 @@
-:root{
-  --color:#3e3e3e;
+:root {
+  --color: #3e3e3e;
+  --dark-color: #121212;
+  --light-color: #F7F7F7;
+  --grey-color: rgba(216, 215, 215, 0.5);
+  --light-grey-color: #D8D7D7;
+
+  --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
