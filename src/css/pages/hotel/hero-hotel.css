@@ -214,6 +214,10 @@ span {
   .hero-home-wrap-title {
     display: none;
   }
+  .money {
+    display: none;
+  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -296,6 +300,13 @@ span {
   }
   .hero-home-img {
     margin: 0 auto;
+  }
+  .date {
+    display: none;
+  }
+  .money {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
