@@ -40,26 +40,7 @@
   margin-top: 32px;
 }
 
-/* .complex-capture {
-    max-width: 335px;
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-
-    color: var(--dark-color);
-
-  } */
-
-.complex-capture-list {
-  margin-bottom: 14px;
-
-  max-width: 335px;
-
+.complex-capture {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -71,10 +52,21 @@
   color: var(--dark-color);
 }
 
+.complex-capture-list {
+  margin-bottom: 14px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
 .complex-capture-list:last-child {
   margin-bottom: 0;
 }
-
 
 .glass-photo {
   margin-bottom: 54px;
@@ -93,11 +85,8 @@
   margin-top: 32px;
 }
 
-.complex-capture-bc {
+.bc-complex-capture {
   margin-bottom: 14px;
-
-  max-width: 335px;
-
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -109,15 +98,30 @@
   color: var(--dark-color);
 }
 .photos-about {
-  margin-top: 80px;
+  padding-top: 80px;
 }
+
+.complex-capture-bc {
+  margin-bottom: 40px;
+}
+
+.complex-capture-items {
+  margin-bottom: 64px;
+}
+
+
 
 @media screen and (min-width: 375px) {
   .container {
     max-width: none;
     width: 375px;
   }
+
+  .complex-capture-bc {
+    max-width: 335px;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -130,7 +134,6 @@
     height: 636px;
     display: flex;
     position: absolute;
-  
   }
   .image-position-bath {
     max-width: 404px;
@@ -138,35 +141,76 @@
     position: relative;
     top: 209px;
     left: 300px;
-   padding-bottom: 459px;
+    padding-bottom: 459px;
   }
 
   .complex-capture-wrap {
-
     margin-top: 240px;
     margin-bottom: 64px;
   }
-.glass-photo {
+  .glass-photo {
     display: flex;
     justify-content: end;
     align-items: flex-end;
-}
+  }
 
-.restroom-photo {
-    /* position: absolute; */
-   
-}
+  .complex-capture-list {
+    max-width: 472px;
+  }
+  .complex-capture {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .bc-complex-capture {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 
-.title-complex-position {
+  .restroom-photo {
+    margin-right: 32px;
+  }
+  .bc-complex-wrap-list {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
 
-    /* position: relative;
-    top: 200px;
-    left: 200px; */
-}
+    justify-content: start;
+  }
+
+  .glass-photo {
+    margin-bottom: 40px;
+  }
+
+  .title-complex-bc {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     width: 1440px;
+  }
+  .rh-wrap-list {
+    display: flex;
+
+    justify-content: start;
+  }
+  .complex-capture-wrap {
+    margin-top: 231px;
+    margin-bottom: 323px;
+    margin-left: 364px;
+  }
+
+  .bc-wrap-list {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+    justify-content: flex-start;
+  }
+
+  .bc-complex-wrap-list {
+    margin-right: 87px;
+    margin-top: 127px;
   }
 }
