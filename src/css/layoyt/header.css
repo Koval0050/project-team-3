@@ -1,16 +1,17 @@
 .header {
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 50%;
   transform: translateX(-50%);
-    padding-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
 .header-container {
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
   display: flex;
   align-items: center;
-
 }
 
 .nav-list {
@@ -86,6 +87,8 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .menu-mobile.is-hidden {
@@ -96,7 +99,7 @@
 
 .mobile-header {
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
-  padding-bottom: 20px;
+  padding-top: 20px;
   margin-bottom: 128px;
 }
 
@@ -127,6 +130,7 @@
   line-height: 1.57;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  margin-bottom: 3px;
 }
 
 .logo-part-mobile {
@@ -176,6 +180,11 @@
     margin-right: 250px;
   }
 
+  .close-btn-mobile {
+    top: 23px;
+    left: 32px;
+  }
+
   .socials-list {
     display: flex;
     margin-left: auto;
@@ -187,6 +196,16 @@
   }
 
   .link-logo-part {
+    font-size: 8px;
+    line-height: 1.25;
+  }
+
+  .logo-mobile {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  .logo-part-mobile {
     font-size: 8px;
     line-height: 1.25;
   }
