@@ -149,6 +149,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+    background-color: var(--dark-color);
+
 }
 
 .socials-link-mobile:not(:last-child) {
