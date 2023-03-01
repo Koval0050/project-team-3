@@ -1,37 +1,27 @@
-/* @media screen and (min) {
-  
-} */
-.header-index {
+.header {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: 100;
 }
-
-.header-container-index {
+.header-container {
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
   display: flex;
   align-items: center;
-
 }
-
 .nav-list {
   display: none;
 }
-
 .logo {
   display: flex;
   flex-direction: column;
   padding: 0;
 }
-
-.link-logo-index {
+.link-logo {
   color: var(--light-color);
   text-align: center;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.57;
@@ -39,35 +29,27 @@
   text-transform: uppercase;
   margin-bottom: 3px;
 }
-
-.link-logo-part-index {
+.link-logo-part {
   color: var(--light-color);
-
   font-weight: 400;
   font-size: 6px;
   line-height: 8px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
-
 .socials-list {
   display: none;
 }
-
-.socials-icon-index {
+.socials-icon {
   fill: var(--light-color);
 }
-
-.burger-menu-open-index {
+.burger-menu-open {
   fill: var(--light-color);
 }
-
 .socials-link-mobile:not(:last-child) {
   margin-right: 15px;
-}
-
+} 
 /* menu-mobile */
-
 .menu-btn-mobile {
   background-color: transparent;
   border: none;
@@ -75,16 +57,13 @@
   padding: 0;
   line-height: 0;
 }
-
 .container-mobile {
   position: relative;
   padding-top: 20px;
   padding-bottom: 24px;
 }
-
 .menu-mobile {
   background-color: var(--dark-color);
-
   position: fixed;
   width: 100%;
   height: 100%;
@@ -94,67 +73,56 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
-
 .menu-mobile.is-hidden {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
-
 .mobile-header {
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
-  padding-bottom: 20px;
+  padding-top: 20px;
   margin-bottom: 128px;
 }
-
 .close-btn-mobile {
   position: absolute;
   background-color: transparent;
-
   top: 25px;
   left: 20px;
-
   border: none;
   margin-right: 83px;
   padding: 0;
   line-height: 0;
 }
-
 .logo-container-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .logo-mobile {
   color: var(--light-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.57;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  margin-bottom: 3px;
 }
-
 .logo-part-mobile {
   color: var(--light-grey-color);
-
   font-weight: 400;
   font-size: 6px;
   line-height: 1.33;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
-
 .item-mobile {
   text-align: center;
 }
-
 .item-mobile:not(:last-child) {
   margin-bottom: 32px;
 }
-
 .mobile-link {
   color: var(--light-color);
   font-weight: 400;
@@ -163,47 +131,51 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-
-.menu-mobile>.container {
+.menu-mobile > .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dark-color);
 }
-
 .socials-link-mobile:not(:last-child) {
   margin-right: 15px;
 }
-
-@media screen and (min-width: 375px) {}
-
+@media screen and (min-width: 375px) {
+}
 @media screen and (min-width: 768px) {
   .menu-btn-mobile {
     margin-right: 250px;
   }
-
+  .close-btn-mobile {
+    top: 23px;
+    left: 32px;
+  }
   .socials-list {
     display: flex;
     margin-left: auto;
   }
-
   .link-logo {
     font-size: 20px;
     line-height: 1.2;
   }
-
   .link-logo-part {
     font-size: 8px;
     line-height: 1.25;
   }
+  .logo-mobile {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .logo-part-mobile {
+    font-size: 8px;
+    line-height: 1.25;
+  }
 }
-
 @media screen and (min-width: 1440px) {
   .menu-btn-mobile {
     display: none;
   }
-
   .nav-list {
     display: flex;
     align-items: center;
@@ -211,22 +183,18 @@
     gap: 40px;
     margin-right: 370px;
   }
-
-  .nav-link-index {
+  .nav-link {
     color: var(--light-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
-
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
-
   .nav-link:hover,
   .nav-link:focus {
     color: #747bff;
   }
-
   .main-nav {
     display: flex;
   }
