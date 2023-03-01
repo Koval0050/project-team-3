@@ -75,9 +75,6 @@
   margin-bottom: 0;
 }
 
-.complex-capture-items {
-  margin-bottom: 64px;
-}
 
 .glass-photo {
   margin-bottom: 54px;
@@ -147,6 +144,7 @@
   .complex-capture-wrap {
 
     margin-top: 240px;
+    margin-bottom: 64px;
   }
 .glass-photo {
     display: flex;
@@ -155,12 +153,15 @@
 }
 
 .restroom-photo {
-    position: absolute;
+    /* position: absolute; */
+   
 }
 
 .title-complex-position {
 
-    position: relative;
+    /* position: relative;
+    top: 200px;
+    left: 200px; */
 }
 }
 
