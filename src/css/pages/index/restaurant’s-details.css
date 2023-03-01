@@ -1,0 +1,108 @@
+.restaurant-detail-btn {
+    border: 0.8px solid var(--dark-color);
+    border-radius: 32px;
+    color: var(--dark-color);
+    background-color: transparent;
+
+    text-transform: uppercase;
+
+    width: 167px;
+    height: 42px;
+
+    display: block;
+
+    margin-right: 14px;
+
+    font-size: 18px;
+    line-height: 1.33;
+
+    transition: color var(--anim), background-color var(--anim);
+}
+
+.restaurant-detail-btn:hover,
+.restaurant-detail-btn:focus {
+    color: var(--light-color);
+    background-color: black;
+}
+
+.restaurant-detail-btn-a {
+    border: 0.8px solid var(--dark-color);
+    border-radius: 32px;
+    color: var(--dark-color);
+    background-color: transparent;
+
+    text-transform: uppercase;
+
+    width: 180px;
+    height: 42px;
+
+    display: block;
+
+    font-size: 18px;
+    line-height: 1.33;
+
+    transition: color var(--anim), background-color var(--anim);
+}
+
+.restaurant-detail-btn-a:hover,
+.restaurant-detail-btn-a:focus {
+    color: var(--light-color);
+    background-color: black;
+}
+
+.restaurant-detail-name {
+    color: var(--dark-color);
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+
+    margin-right: 32px;
+}
+
+.restaurant-detail-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--dark-color);
+
+    width: 221px;
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant-detail {
+        display: flex;
+        align-items: center;
+    }
+    
+    .restaurant-detail-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .restaurant-detail-items {
+        display: block;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .restaurant-detail-items {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 125px;
+        margin-top: 144px;
+    }
+}
+
+.restaurant-detail-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 213px;
+}
