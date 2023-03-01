@@ -1,0 +1,135 @@
+/* ---------------------- 320  ---------------------- */
+
+.welcome {
+}
+
+.welcome-header {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.welcome-list {
+}
+
+.welcome-item {
+  margin-bottom: 32px;
+}
+
+.welcome-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* ---------------------- Mobile  ---------------------- */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: none;
+    width: 375px;
+  }
+}
+
+/* ---------------------- Tablet  ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @media screen and (max-width: 1439px) {
+
+    .welcome {
+    }
+  
+    .welcome-header {
+      text-align: left;
+      max-width: 434px;
+      font-size: 36px;
+      line-height: 1.11;
+      margin-bottom: 50px;
+    }
+    .welcome-list {
+      display: flex;
+    }
+  
+    .welcome-item {
+      margin-right: 32px;
+      text-align: start;
+      justify-content: start;
+    }
+  
+    .welcome-item:first-child {
+      max-width: 306px;
+    }
+  
+    .welcome-item:last-child {
+      max-width: 366px;
+      margin-bottom: 40px;
+    }
+    img {
+      width: 704px;
+      height: 599px;
+      /* display: none; */
+    }
+  }
+  
+}
+
+/* ---------------------- Desktop  ---------------------- */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    padding-bottom: 64px;
+
+    /* display: flex;
+    flex-direction: column-reverse; */
+  }
+
+  .welcome-caption {
+    margin-left: 32px;
+  }
+
+  .welcome-header {
+    margin-bottom: 310px;
+  }
+
+  .welcome-list {
+    display: block;
+  }
+
+  .welcome-item {
+    max-width: 437px;
+  }
+
+  .welcome-text {
+  }
+
+  img {
+    width: 672px;
+    height: 599px;
+    order: 1;
+    justify-content: start;
+    align-items: flex-start;
+    /* display: none; */
+  }
+}

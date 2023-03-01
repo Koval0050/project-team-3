@@ -1,0 +1,185 @@
+/* ---------------------- 320  ---------------------- */
+
+.location-contacts {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.container {
+}
+
+.location-contacts-header {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  margin-bottom: 32px;
+}
+
+
+
+.maps {
+  max-width: 270px;
+}
+
+.location-address-list {
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+
+.location-address-item {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.location-contacts-text {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  margin-bottom: 12px;
+}
+
+.location-contacts-list {
+}
+
+.location-contacts-item {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: var(--dark-color);
+}
+
+.contact-link {
+}
+
+/* ---------------------- Mobile  ---------------------- */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: none;
+    width: 375px;
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+
+  .maps {
+    max-width: 335px;
+  }
+}
+/* ---------------------- Tablet  ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @media screen and (max-width: 1439px) {
+    .location-contacts-header {
+      font-size: 68px;
+      line-height: 68px;
+      margin-bottom: 40px;
+    }
+
+    .location-contacts {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .address-contacts {
+      display: flex;
+    }
+
+    .location-contacts-text {
+      text-align: left;
+    }
+
+    .contacts-caption {
+      margin-left: 356px;
+    }
+
+    .maps {
+      max-width: 704px;
+    }
+  }
+}
+
+/* ---------------------- Desktop  ---------------------- */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .location-contacts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    position: relative;
+  }
+
+  .location-header-maps-caption {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+
+  .location-contacts-header {
+    margin-left: 32px;
+    margin-bottom: 0;
+
+    max-height: 68px;
+  }
+
+  /* .location-contacts {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .maps {
+    /* order: 1; */
+    max-width: 640px;
+  }
+
+  .address-contacts {
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    min-height: 200px;
+
+    /*  */
+    position: absolute;
+    right: 655px;
+    bottom: 100px;
+  }
+
+  .address-caption {
+  }
+
+  .contacts-caption {
+    display: flex;
+  }
+
+  .location-address-list {
+    margin-bottom: 0;
+  }
+}
