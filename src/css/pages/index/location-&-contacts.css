@@ -20,10 +20,13 @@
   margin-bottom: 32px;
 }
 
-
-
 .maps {
   max-width: 270px;
+}
+
+.address-caption {
+  margin-top: 32px;
+  margin-bottom: 28px;
 }
 
 .location-address-list {
@@ -150,13 +153,7 @@
     max-height: 68px;
   }
 
-  /* .location-contacts {
-    display: flex;
-    flex-wrap: wrap;
-  } */
-
   .maps {
-    /* order: 1; */
     max-width: 640px;
   }
 

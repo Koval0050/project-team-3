@@ -1,6 +1,8 @@
 /* ---------------------- 320  ---------------------- */
 
 .welcome {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .welcome-header {
@@ -50,10 +52,11 @@
   }
 
   @media screen and (max-width: 1439px) {
-
     .welcome {
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
-  
+
     .welcome-header {
       text-align: left;
       max-width: 434px;
@@ -64,17 +67,17 @@
     .welcome-list {
       display: flex;
     }
-  
+
     .welcome-item {
       margin-right: 32px;
       text-align: start;
       justify-content: start;
     }
-  
+
     .welcome-item:first-child {
       max-width: 306px;
     }
-  
+
     .welcome-item:last-child {
       max-width: 366px;
       margin-bottom: 40px;
@@ -84,7 +87,6 @@
       height: 599px;
     } */
   }
-  
 }
 
 /* ---------------------- Desktop  ---------------------- */
