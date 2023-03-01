@@ -6,6 +6,7 @@
   margin-right: auto;
   background: #f7f7f7;
 } */
+
 @media screen and (max-width: 1440px) {
     .hero-home-wrap-title{
         display: none;
@@ -17,10 +18,19 @@
   padding: 0;
 }
 
+.hero-hotel {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f7f7;
+}
 
 .hero-container {
   padding-top: 40px;
 }
+
 .hero-title {
   font-family: 'DM Sans';
   font-style: normal;
@@ -93,7 +103,7 @@ span {
 }
 .hero-svg {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .hero-svg-icon:not(:last-child) {
@@ -246,6 +256,8 @@ span {
     justify-content: space-between;
   }
   .hero-text {
+    position: absolute;
+    bottom: 33x0px;
     margin-top: 0;
   }
   .hero-home-list {
@@ -284,10 +296,6 @@ span {
     padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
   .hero-home-container {
     margin-bottom: 0;
