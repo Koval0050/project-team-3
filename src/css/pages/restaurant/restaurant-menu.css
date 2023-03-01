@@ -178,7 +178,7 @@
 }
 
 .rest-menu-item:not(:first-child) {
-    padding-top: 14px;
+    margin-top: 14px;
 }
 
 .rest-menu-dish-name {
