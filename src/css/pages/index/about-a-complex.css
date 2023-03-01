@@ -1,0 +1,172 @@
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.image-position-fire {
+  margin-bottom: 20px;
+  max-width: 335px;
+  height: 442px;
+}
+
+.image-position-bath {
+  max-width: 282px;
+  height: 153px;
+}
+
+.title-complex {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 18px;
+  margin-top: 32px;
+}
+
+/* .complex-capture {
+    max-width: 335px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: var(--dark-color);
+
+  } */
+
+.complex-capture-list {
+  margin-bottom: 14px;
+
+  max-width: 335px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--dark-color);
+}
+
+.complex-capture-list:last-child {
+  margin-bottom: 0;
+}
+
+
+.glass-photo {
+  margin-bottom: 54px;
+}
+
+.title-complex-bc {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 18px;
+  margin-top: 32px;
+}
+
+.complex-capture-bc {
+  margin-bottom: 14px;
+
+  max-width: 335px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--dark-color);
+}
+.photos-about {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: none;
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  .image-position-fire {
+    max-width: 482px;
+    height: 636px;
+    display: flex;
+    position: absolute;
+  
+  }
+  .image-position-bath {
+    max-width: 404px;
+    height: 219px;
+    position: relative;
+    top: 209px;
+    left: 300px;
+   padding-bottom: 459px;
+  }
+
+  .complex-capture-wrap {
+
+    margin-top: 240px;
+    margin-bottom: 64px;
+  }
+.glass-photo {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.restroom-photo {
+    /* position: absolute; */
+   
+}
+
+.title-complex-position {
+
+    /* position: relative;
+    top: 200px;
+    left: 200px; */
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}

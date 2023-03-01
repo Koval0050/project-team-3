@@ -1,0 +1,69 @@
+.room {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'DM Sans';
+  font-style: normal;
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.room-list {
+  margin-top: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: inherit;
+}
+
+.room-subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: calc(32 / 28);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.room-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  margin-left: 20px;
+}
+
+.room-img {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  margin-right: 20px;
+}
+
+.room-img-item {
+  position: absolute;
+  z-index: 100;
+  left: 20px;
+  top: 50%;
+}
+
+.room-button {
+  padding: 8px 18px;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+  background-color: #121212;
+  color: #f7f7f7;
+  margin: 0 auto;
+  display: block;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.room-button:is(:hover, :focus) {
+  color: #121212;
+  background-color: #ffffff;
+}
