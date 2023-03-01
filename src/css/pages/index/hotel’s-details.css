@@ -1,5 +1,13 @@
 /* ---------------------- 320  ---------------------- */
 
+* {
+  border: 1px solid red;
+}
+
+.mobile-hiden {
+  display: none;
+}
+
 .hotel-details {
   background-color: var(--dark-color);
   padding-top: 32px;
@@ -48,8 +56,7 @@
   padding: 8px 18px;
   gap: 10px;
 
-  width: 131px;
-  height: 34px;
+  min-width: 131px;
 
   border: 0.8px solid #f7f7f7;
   border-radius: 32px;
@@ -97,6 +104,9 @@
     width: 768px;
     padding: 0 32px;
   }
+  .hotel-details-header {
+    margin-bottom: 0;
+  }
 
   @media screen and (max-width: 1439px) {
   }
@@ -115,11 +125,10 @@
   }
 
   .hotel-details-text {
-      max-width: 362px;
+    max-width: 362px;
   }
 
-.hotel-details-button {
+  .hotel-details-button {
     /* justify-content: start; */
-}
-
+  }
 }
