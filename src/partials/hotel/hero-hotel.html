@@ -9,7 +9,7 @@
           </button>
         </li>
         <li class="hero-button">
-          <button class="hero-btn" type="button">View prices</button>
+          <button class="hero-btn" type="button" data-modal-open>View prices</button>
         </li>
       </ul>
     </div>
@@ -93,3 +93,50 @@
     </li>
   </ul>
 </section>
+
+<!-- backdrop -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <form class="contact-form">
+      <h2 class="title-form">Prices per room</h2>
+      <h3 class="title-input">Double suite</h3>
+      <div class="contact-form-wrap">
+        <div class="input-box">
+          <select class="contact-form-input" name="room-type" required>
+            <option class="option" value="" selected>1</option>
+            <option value="standard">2</option>
+          </select>
+          <p class="subtitle-input">Number of nights</p>
+        </div>
+        <div class="input-box date">
+          <input
+            type="date"
+            class="contact-form-input"
+            name="check-in-date"
+            required
+            placeholder="Check-in date"
+          />
+          <p class="subtitle-input">Check-in date</p>
+        </div>
+
+       <div class="input-box money">
+          <input
+            type="text"
+            class="contact-form-input"
+            name="money"
+            required
+            placeholder="1000"
+          />
+          <p class="subtitle-input">UAH</p>
+        </div>
+      </div>
+      <button type="submit" class="contact-form-btn">MAKE A RESERVATION</button>
+    </form>
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+

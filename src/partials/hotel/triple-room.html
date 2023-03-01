@@ -142,8 +142,52 @@
         <button class="hotel-room-btn"><a href="./room.html">More details</a></button>
       </li>
       <li class="hotel-room-btn-item">
-        <button class="hotel-room-btn">View prices</button>
+        <button class="hotel-room-btn" data-modal-open>View prices</button>
       </li>
     </ul>
   </div>
 </section>
+
+<!-- backdrop -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <form class="contact-form">
+      <h2 class="title-form">Prices per room</h2>
+      <div class="contact-form-wrap">
+        <div class="input-box">
+          <input
+            type="text"
+            class="contact-form-input"
+            name="user_name"
+            required
+            minlength="2"
+            pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+            placeholder="Your name"
+          />
+        </div>
+        <div class="input-box">
+          <select class="contact-form-input" name="room-type" required>
+            <option class="option" value="" selected>1</option>
+            <option value="standard">Tomorrow</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <input
+            type="date"
+            class="contact-form-input"
+            name="check-in-date"
+            required
+            placeholder="Check-in date"
+          />
+          <p class="subtitle-input">Check-in date</p>
+        </div>
+      </div>
+      <button type="submit" class="contact-form-btn">MAKE A RESERVATION</button>
+    </form>
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
