@@ -1,6 +1,6 @@
 .room {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: var(--dark-color);
+  color: var(--dark-color);
   font-family: 'DM Sans';
   font-style: normal;
   padding-top: 40px;

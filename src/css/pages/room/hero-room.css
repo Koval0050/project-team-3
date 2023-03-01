@@ -7,11 +7,15 @@
     margin-top: 28px;
  } 
 
+.hero-text {
+   position: inherit;
+} 
 
 }
 @media screen and (min-width: 1440px) {
  .hero-room-desk {
     display: flex;
+    justify-content: space-between;
  }
 .hero-list-img {
 margin-bottom: 16px;
