@@ -1,4 +1,30 @@
-.hero-room{
-    background-color:blanchedalmond;
-    color: darkslategrey;
+
+@media screen and (min-width: 768px) {
+.room {
+    margin-bottom: 18px;
+}
+.img-room {
+    margin-top: 28px;
+ } 
+
+
+}
+@media screen and (min-width: 1440px) {
+ .hero-room-desk {
+    display: flex;
+ }
+.hero-list-img {
+margin-bottom: 16px;
+ }
+ .room {
+    margin-top: 169px;
+    margin-bottom: 32px;
+ }
+ .img-room {
+    margin-bottom: 16px;
+ } 
+ .box {
+margin-right: 220px;
+margin-top: -65px;
+ }  
 }
