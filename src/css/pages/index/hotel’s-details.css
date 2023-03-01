@@ -1,1 +1,133 @@
 
+/* ---------------------- 320  ---------------------- */
+
+
+.mobile-hiden {
+  display: none;
+}
+
+.hotel-details {
+  background-color: var(--dark-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hotel-details-header {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  margin-bottom: 32px;
+}
+
+.hotel-details-text {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  margin-bottom: 32px;
+}
+
+.hotel-details-list {
+}
+
+.hotel-details-item {
+}
+
+.hotel-details-button-list {
+  display: flex;
+  margin-top: 40px;
+}
+
+.hotel-details-button-item {
+}
+
+.hotel-details-button {
+  background-color: inherit;
+  /*  */
+  padding: 8px 18px;
+  gap: 10px;
+
+  min-width: 131px;
+
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.hotel-details-buttons-item {
+}
+
+/* ---------------------- Mobile  ---------------------- */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: none;
+    width: 375px;
+  }
+  .hotel-details-caption {
+    display: flex;
+    margin-bottom: 80px;
+  }
+
+  .hotel-details-header {
+    margin-right: 32px;
+  }
+
+  .hotel-details {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+}
+
+/* ---------------------- Tablet  ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+  .hotel-details-header {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 1439px) {
+  }
+}
+
+/* ---------------------- Desktop  ---------------------- */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .hotel-details {
+    padding-top: 44px;
+    padding-bottom: 80px;
+  }
+
+  .hotel-details-text {
+    max-width: 362px;
+  }
+
+  .hotel-details-button {
+    /* justify-content: start; */
+  }
+}
+
