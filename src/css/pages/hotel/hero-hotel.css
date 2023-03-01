@@ -17,14 +17,13 @@ body {
 .container {
     width: 100%;
     padding-left: 20px;
-    /* padding-right: 20px; */
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     background: #F7F7F7;
 }
 .hero-container {
     padding-top: 40px;
-    padding-bottom: 64px;
 }
 .hero-title {
 font-family: 'DM Sans';
@@ -48,7 +47,6 @@ margin-top: 0;
     margin-right: 12px;
 }
 .hero-btn {
-/* width: 131px; */
 padding: 8px 18px;
 
 font-weight: 400;
@@ -109,6 +107,7 @@ span {
 .icon-first {
     fill:rgba(12, 12, 12, 0.3);
 }
+
 
 
     /* HERO-HOME */
@@ -186,7 +185,7 @@ margin-bottom: 32px;
         .container {
         max-width: 375px;
         padding-left: 20px;
-        /* padding-right: 20px; */
+        padding-right: 20px;
         margin-left: auto;
         margin-right: auto;
         } 
@@ -209,8 +208,8 @@ margin-bottom: 32px;
             max-width: 768px;
             padding-left: 32px;
             padding-right: 32px;
-            padding-top: 50px;
-            padding-bottom: 38px;
+            padding-top: 40px;
+            padding-bottom: 40px;
             }
             .hero-home-title {
                 font-size: 150px;
@@ -291,9 +290,9 @@ margin-bottom: 32px;
 .container {
     max-width: 1440px;
     padding-left: 32px;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-right: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     
@@ -315,7 +314,11 @@ margin-bottom: 32px;
     padding: 9px 24px;
     font-size: 18px;
     line-height: 1.33;
-    } 
+    }
+    .boxes {
+        margin-right: 120px;
+        margin-top: -65px;
+      }  
     .hero-home {
         flex-direction: row-reverse;
     }
