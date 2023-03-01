@@ -1,35 +1,18 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 20px;
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
-  max-width: 375px; 
-  margin: 0 auto;
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3); 
 }
-
-@media screen and (min-width: 768px) {
-  .header {
-    max-width: 768px;
-  }
-}
-
-
-
-@media screen and (min-width: 1440px) {
-  .header {
-    max-width: 1440px;
-  }
-}
-
 
 .header-container {
   display: flex;
   align-items: center;
-
-
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .nav-list {
@@ -63,6 +46,9 @@
 
 .socials-list {
   display: none;
+}
+.burger-menu-open{
+  stroke: var(--dark-color);
 }
 
 .socials-icon {
@@ -105,8 +91,6 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
-  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .menu-mobile.is-hidden {
@@ -117,7 +101,7 @@
 
 .mobile-header {
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
-  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 128px;
 }
 
@@ -148,7 +132,6 @@
   line-height: 1.57;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  margin-bottom: 3px;
 }
 
 .logo-part-mobile {
@@ -198,11 +181,6 @@
     margin-right: 250px;
   }
 
-  .close-btn-mobile {
-    top: 23px;
-    left: 32px;
-  }
-
   .socials-list {
     display: flex;
     margin-left: auto;
@@ -214,16 +192,6 @@
   }
 
   .link-logo-part {
-    font-size: 8px;
-    line-height: 1.25;
-  }
-
-  .logo-mobile {
-    font-size: 20px;
-    line-height: 1.2;
-  }
-  
-  .logo-part-mobile {
     font-size: 8px;
     line-height: 1.25;
   }
