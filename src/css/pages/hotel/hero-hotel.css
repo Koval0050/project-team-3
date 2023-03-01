@@ -8,12 +8,12 @@
 } */
 
 @media screen and (max-width: 1440px) {
-  .room-hero-container {
-  }
+  
   .hero-home-wrap-title {
     display: none;
   }
 }
+
 .list {
   list-style: none;
   margin: 0;
@@ -118,7 +118,7 @@ span {
 /* HERO-HOME */
 .hero-home {
   background-color: #121212;
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 .hero-home-container {
   background: #121212;
