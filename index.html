@@ -5,7 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/project-team-3/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <link
+
+<link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -19,7 +20,7 @@
       rel="stylesheet"
     />
     
-    <link rel="stylesheet" href="/project-team-3/assets/main-4478b635.css">
+    <link rel="stylesheet" href="/project-team-3/assets/main-e40e95e8.css">
   </head>
   <body>
     
@@ -127,7 +128,61 @@
 </header>
 
     <main>
-      
+        <section class="hero container">
+    HERO Index<br />
+    <a href="./room.html">travel to room</a><br />
+    <a href="./hotel.html">travel to hotel</a><br />
+    <a href="./restaurant.html">travel to restaurant</a>
+  </section> 
+
+  <section class="container hero-home">
+    <div class="hero-home-container">
+            <picture> 
+              <source
+                srcset="/project-team-3/assets/desk-home_1x-7649e343.jpg 1x, /project-team-3/assets/desk-home_2x-160f6196.jpg 2x"
+                media="(min-width: 1440px)"
+                /> 
+                <source
+                srcset="/project-team-3/assets/tablet-home_1x-fdde748c.jpg 1x, /project-team-3/assets/tablet-home_2x-ea1d457b.jpg 2x"
+                media="(min-width: 768px)" 
+                />
+                <source
+                srcset="/project-team-3/assets/mob-home_1x-b8ef111a.jpg 1x, /project-team-3/assets/mob-home_2x-e36ce5ce.jpg 2x"
+                media="(min-width: 375px)" 
+                />
+                <img class="hero-home-img"
+                src="/project-team-3/assets/mob-home_1x-b8ef111a.jpg" 
+                alt="height modern build" 
+                width="542">   
+            </picture>
+            <div class="hero-home-wraper">
+            <h1 class="hero-home-title">Mimino</h1>
+            <ul class="hero-home-list-btn list">
+              <li class="hero-home-button">
+                  <button class="hero-home-btn" type="button">book a room</button>
+              </li>
+              <li class="hero-home-button">
+                  <button class="hero-home-btn" type="button">book  a table</button>
+              </li>
+              </ul>
+              </div>
+        </div>
+        <div class="hero-home-sent">
+          <h2 class="hero-home-wrap-title">Mimino</h2>
+            <ul class="hero-home-list list">
+                <li class="hero-home-item">
+                    <p class="hero-home-text home-text">Whether you're in the mood for a hearty breakfast, a light lunch, or a <span>romantic dinner</span>, our menu has something for everyone.</p>
+                </li>
+                <li class="hero-home-item">
+                    <p class="hero-home-text home-p">At Hotel Mimino, we believe that great food should be available to everyone, no matter the time of day.</p>
+                </li>
+            </ul>
+        </div>
+    
+    
+</section>
+
+
       <section class="container">
   <h2 class="visually-hidden">About a complex</h2>
   <div class="photos-about">
@@ -243,6 +298,7 @@
       
       
       
+      
     </main>
     <footer>
     <div class="footer-container container">
@@ -287,8 +343,10 @@
     </div>
 </footer>
 
+
     <!----------- script ------------>
     <script src="./js/mobile-menu.js"></script>
     <!----------- /script ------------>
+
   </body>
 </html>
