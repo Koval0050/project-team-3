@@ -8,9 +8,11 @@
 } */
 
 @media screen and (max-width: 1440px) {
-    .hero-home-wrap-title{
-        display: none;
-    }
+  .room-hero-container {
+  }
+  .hero-home-wrap-title {
+    display: none;
+  }
 }
 .list {
   list-style: none;
@@ -288,7 +290,19 @@ span {
 }
 
 @media screen and (min-width: 1440px) {
+  .room-hero-container {
+
+    max-width: 1440px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .hero-container {
+    display: flex;
+    justify-content: space-between;
     max-width: 1440px;
     padding-left: 32px;
     padding-right: 32px;
