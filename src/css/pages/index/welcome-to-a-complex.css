@@ -79,11 +79,10 @@
       max-width: 366px;
       margin-bottom: 40px;
     }
-    img {
+    /* img {
       width: 704px;
       height: 599px;
-      /* display: none; */
-    }
+    } */
   }
   
 }
@@ -124,12 +123,11 @@
   .welcome-text {
   }
 
-  img {
+  /* img {
     width: 672px;
     height: 599px;
     order: 1;
     justify-content: start;
     align-items: flex-start;
-    /* display: none; */
-  }
+  } */
 }
