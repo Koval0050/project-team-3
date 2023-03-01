@@ -116,30 +116,32 @@
   <div class="hotel-room-wrapper">
     <div>
       <h2 class="hotel-room-title">DOUBLE LUXURY ROOM</h2>
-        <ul class="hotel-room-disc-list list">
-          <li class="hotel-room-disc-item">
-            <div class="text-disc-up">
-              <p class="hotel-room-disc">
-                Experience luxury in our Double Luxury Room at Mimino Hotel.
-                This spacious room features a comfortable bed, private bathroom,
-                flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
-                curtains, and soundproofing ensure a peaceful night's sleep.
-              </p>
-            </div>
-          </li>
-          <li class="hotel-room-disc-item">
-            <div class="text-disc-down">
-              <p class="hotel-room-disc">
-                Relax after a busy day at the writing desk or armchair. Book now
-                for a convenient and comfortable stay.
-              </p>
-            </div>
-          </li>
-        </ul>
+      <ul class="hotel-room-disc-list list">
+        <li class="hotel-room-disc-item">
+          <div class="text-disc-up">
+            <p class="hotel-room-disc">
+              Experience luxury in our Double Luxury Room at Mimino Hotel. This
+              spacious room features a comfortable bed, private bathroom,
+              flat-screen TV, and high-speed Wi-Fi. Climate control, blackout
+              curtains, and soundproofing ensure a peaceful night's sleep.
+            </p>
+          </div>
+        </li>
+        <li class="hotel-room-disc-item">
+          <div class="text-disc-down">
+            <p class="hotel-room-disc">
+              Relax after a busy day at the writing desk or armchair. Book now
+              for a convenient and comfortable stay.
+            </p>
+          </div>
+        </li>
+      </ul>
     </div>
     <ul class="hotel-room-btn-list list">
       <li class="hotel-room-btn-item">
-        <button class="hotel-room-btn"><a href="./room.html">More details</a></button>
+        <button class="hotel-room-btn">
+          <a href="./room.html">More details</a>
+        </button>
       </li>
       <li class="hotel-room-btn-item">
         <button class="hotel-room-btn">View prices</button>
@@ -147,3 +149,72 @@
     </ul>
   </div>
 </section>
+
+<!-- backdrop -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <form class="contact-form">
+      <h2 class="title-form">BOOK A room</h2>
+      <div class="contact-form-wrap">
+        <div class="input-box">
+          <input
+            type="text"
+            class="contact-form-input"
+            name="user_name"
+            required
+            minlength="2"
+            pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+            placeholder="Your name"
+          />
+          <p class="subtitle-input">Who should book a table for?</p>
+        </div>
+        <div class="input-box">
+          <input
+            type="tel"
+            class="contact-form-input"
+            name="user_phone"
+            required
+            minlength="2"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone"
+          />
+          <p class="subtitle-input">Phone number</p>
+        </div>
+        <div class="input-box">
+          <select class="contact-form-input" name="room-type" required>
+            <option class="option" value="" selected>Today</option>
+            <option value="standard">Tomorrow</option>
+          </select>
+          <p class="subtitle-input">Check-in date</p>
+        </div>
+        <div class="input-box">
+          <input
+            type="date"
+            class="contact-form-input"
+            name="check-in-date"
+            required
+            placeholder="Check-in date"
+          />
+          <p class="subtitle-input">Check-in date</p>
+        </div>
+        <div class="input-box">
+          <select class="contact-form-input" name="room-type" required>
+            <option class="option" value="" selected>Double suite</option>
+            <option value="standard">Triple suite</option>
+            <option value="deluxe">Four-seater suite</option>
+          </select>
+          <p class="subtitle-input">Number category</p>
+        </div>
+      </div>
+      <button type="submit" class="contact-form-btn">MAKE A RESERVATION</button>
+    </form>
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+
