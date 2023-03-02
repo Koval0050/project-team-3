@@ -45,6 +45,13 @@
   left: 32px;
   top: 50%;
 }
+
+@media screen and (max-width: 375px) {
+  .room-img-item {
+    left: 16px;
+  }
+}
+
 .room-button-text {
   font-weight: 400;
   font-size: 14px;
@@ -98,6 +105,7 @@
   }
   .room-img-item {
     top: 40%;
+    left: 170px;
   }
   .room-button-text {
     line-height: calc(24 / 14);
