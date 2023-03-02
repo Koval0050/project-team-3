@@ -1,4 +1,4 @@
-.header {
+.header-index {
   position: absolute;
   top: 0;
   left: 50%;
@@ -40,8 +40,8 @@
 .socials-list {
   display: none;
 }
-.socials-icon {
-  fill: var(--light-color);
+.burger-menu-open-index {
+  stroke: var(--light-color);
 }
 .burger-menu-open {
   fill: var(--light-color);
@@ -132,7 +132,8 @@
   text-transform: uppercase;
 }
 .menu-mobile > .container {
-  height: 100%;
+  height: 110vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
