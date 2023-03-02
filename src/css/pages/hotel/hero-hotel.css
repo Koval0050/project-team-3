@@ -192,6 +192,16 @@ span {
   width: 100%;
   left: 0;
 }
+.title-input {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.12;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #F7F7F7;
+
+margin-bottom: 24px;
+}
 
 
 @media screen and (min-width: 375px) {
@@ -221,6 +231,12 @@ span {
 }
 
 @media screen and (min-width: 768px) {
+
+.title-input {
+margin-bottom: 32px;
+}
+
+
   /* .container {
     max-width: 768px;
     padding-left: 32px;
