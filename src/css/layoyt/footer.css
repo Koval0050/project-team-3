@@ -1,5 +1,6 @@
 footer {
     padding-bottom: 32px;
+    padding-top: 24px;
 }
 
 .footer-container {
@@ -7,7 +8,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
     padding-bottom: 32px;
 }
 
@@ -52,6 +52,10 @@ footer {
 
     .socials-item:not(:last-child) {
     margin-right: 15px;
+    }
+
+    .socials-icon-footer {
+        fill: var(--dark-color);
     }
     
     @media screen and (min-width: 768px) {

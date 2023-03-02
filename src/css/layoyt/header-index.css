@@ -40,6 +40,17 @@
 .socials-list {
   display: none;
 }
+
+
+.burger-menu-open-index{
+  stroke: var(--light-color);
+}
+
+.socials-icon-index {
+  fill: var(--light-color);
+}
+
+
 .burger-menu-open-index {
   stroke: var(--light-color);
 }
@@ -131,7 +142,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.menu-mobile > .container {
+.menu-mobile>.container {
   height: 110vh;
   width: 100%;
   display: flex;
