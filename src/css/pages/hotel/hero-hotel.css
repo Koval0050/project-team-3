@@ -193,6 +193,17 @@ span {
   left: 0;
 }
 
+.title-input {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  margin-bottom: 24px;
+  }   
+
+
 
 @media screen and (min-width: 375px) {
   /* .container {
@@ -297,6 +308,10 @@ span {
   .hero-home-img {
     margin: 0 auto;
   }
+  .title-input {
+    margin-bottom: 32px;
+    }
+  
 }
 
 @media screen and (min-width: 1440px) {
