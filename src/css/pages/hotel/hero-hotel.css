@@ -8,7 +8,6 @@
 } */
 
 @media screen and (max-width: 1440px) {
-  
   .hero-home-wrap-title {
     display: none;
   }
@@ -36,10 +35,6 @@
 
 .hero-room {
   padding-top: 80px;
-}
-
-.hero-container {
-  padding-top: 40px;
 }
 
 .hero-title {
@@ -193,7 +188,6 @@ span {
   left: 0;
 }
 
-
 @media screen and (min-width: 375px) {
   /* .container {
     max-width: 375px;
@@ -300,8 +294,10 @@ span {
 }
 
 @media screen and (min-width: 1440px) {
+  .hero-home {
+    padding: 0;
+  }
   .room-hero-container {
-
     max-width: 1440px;
     padding-left: 32px;
     padding-right: 32px;
@@ -315,9 +311,9 @@ span {
     justify-content: space-between;
     max-width: 1440px;
     padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-right: 32px;
+    padding-top: 30px; */
+    padding-bottom: 0;
     margin-left: auto;
     margin-right: auto;
   }
